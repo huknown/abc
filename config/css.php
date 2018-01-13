@@ -23,8 +23,30 @@ body {
 	overflow:auto;	
 }	  
 
-.bcontainer{
-	width:80%;
+.putleft{
+	float:left;
+/*	width:100px;*/
+	background:orange;
+	border-radius: 0px 0px 10px 0px;
+}
+
+
+.bcontent{
+	width:100%;
+	margin-bottom:30px;
+}
+.floatingthis{
+	float:left;
+	/*width:82%;*/
+	padding-left:50px;
+	padding-right: 50px;
+
+}
+
+.panel-heading{
+	
+	background-color:#FF4500;
+	border-radius: 5px;
 }
 
 .deco{
@@ -53,7 +75,8 @@ body {
 	  width: 100%;
 	  height: 60px; /* Set the fixed height of the footer here */
 	  line-height: 60px; /* Vertically center the text there */
-	  background-color: #f5f5f5; }
+	  background-color: #f5f5f5; 
+}
 /*
 .inner {
     margin-left: 220px;
