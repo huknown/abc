@@ -33,14 +33,14 @@
 		      				<li class="nav-item<?php if($pageid==1){echo " active"; }?>">
 		        				<a class="nav-link" href="index.php?page=1"><?php if($pageid==1){echo "<strong>Home</strong>"; } else {echo "Home";}?> <span class="sr-only">(current)</span></a>
 		      				</li>
-		      				<li class="nav-item<?php if($pageid==2){echo " active"; }?>">
-								<a class="nav-link" href="index.php?page=2"><?php if($pageid==2){echo "<strong>About Us</strong>"; } else {echo "About Us";}?></a>
+		      				<li class="nav-item<?php if($pageid==4){echo " active"; }?>">
+								<a class="nav-link" href="index.php?page=4"><?php if($pageid==4){echo "<strong>Ventures</strong>"; } else {echo "Ventures";}?></a>
 		     		 		</li>  
 						    <li class="nav-item<?php if($pageid==3){echo " active"; }?>">
 						    	<a class="nav-link" href="index.php?page=3"><?php if($pageid==3){echo "<strong>Contact Us</strong>"; } else {echo "Contact Us";}?></a>
 						    </li>  
-						    <li class="nav-item<?php if($pageid==4){echo " active"; }?>">
-						        <a class="nav-link" href="index.php?page=4"><?php if($pageid==4){echo "<strong>Ventures</strong>"; } else {echo "Ventures";}?></a>
+						    <li class="nav-item<?php if($pageid==2){echo " active"; }?>">
+						        <a class="nav-link" href="index.php?page=2"><?php if($pageid==2){echo "<strong>About Us</strong>"; } else {echo "About Us";}?></a>
 						    </li>  
 						</ul>
 		    		</div>
@@ -92,40 +92,62 @@
 					
 					<?php if($pageid==4){
 					echo'
-					<div class="panel panel-primary col-sm-6">
+					<div class="panel panel-default col-sm-6">
 					  <div class="panel-heading">Wajasiri Real Estate</div>
 					  <div class="panel-body">
-					    Image for Real Estate
+					    <img src="../../CSS/Images/real-estate-modded.jpg" alt="Real Estate" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    With a growing porfolio of real estate, we believe Wajasiri can be the end of your search for a new home or business opportunity...
+					    </p>
 					  </div>
 					</div>
 					
 					<div class="panel panel-default col-sm-6">
 					  <div class="panel-heading">Wajasiri Furniture</div>
 					  <div class="panel-body">
-					    Image for Furniture
+					    <img src="../../CSS/Images/furniture-modded.jpg" alt="Furniture" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    With over 20 years of experience in the furniture industry Wajasiri has grown to be a steady source of fashionable furniture crafted locally..
+					    </p>
 					  </div>
 					</div>
 					
 					<div class="panel panel-info col-sm-6">
 					  <div class="panel-heading">Wajasiri Farms</div>
 					  <div class="panel-body">
-					    Image for Farms
+					    <img src="../../CSS/Images/rice-modded.jpg" alt="Farm Produce" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Wajasiri endeavors on farming various tropical and mainstead produce ranging from Watermelons all the way to rice and maize...
+					    </p>
 					  </div>
 					</div>
 					
 					<div class="panel panel-default col-sm-6">
 					  <div class="panel-heading">Wajasiri IT Solutions & Consultancy</div>
 					  <div class="panel-body">
-					    Image for IT services
+						<img src="../../CSS/Images/office-2-modded.jpg" alt="IT Services" class="resp-image">
 					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Our talented and experienced work force can help to provide you the IT solution that you need to grow and survive...
+					    </p>
+					  </div>					  
 					</div>';
 												
 					}?>
 					
 					    
 			    </div> 
+			    <div class="push"></div>
 			</div>
 		
+    
     
     <footer class="footer">
       <div class="container">

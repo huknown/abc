@@ -18,16 +18,24 @@ html {
 	  min-height: 100%; }
 body {
 	  margin-bottom: 60px; /* Margin bottom by footer height */ }
-	  
+  
 .row{
 	overflow:auto;	
 }	  
+
+.resp-image{
+	
+	width: 100%;
+	margin-bottom:20px;
+	border-radius: 0px 0px 5px 5px;
+}
 
 .putleft{
 	float:left;
 /*	width:100px;*/
 	background:orange;
 	border-radius: 0px 0px 10px 0px;
+    
 }
 
 
@@ -46,7 +54,7 @@ body {
 .panel-heading{
 	
 	background-color:#FF4500;
-	border-radius: 5px;
+	border-radius: 5px 5px 0px 0px;
 }
 
 .deco{
@@ -68,6 +76,11 @@ body {
 	background:orange;	
 }
 
+.push{
+	height:60px;
+	width: 100%;
+	float:left;
+}
 
 .footer {
 	  position: absolute;
@@ -77,10 +90,5 @@ body {
 	  line-height: 60px; /* Vertically center the text there */
 	  background-color: #f5f5f5; 
 }
-/*
-.inner {
-    margin-left: 220px;
-	width: 1000px
-   }
-*/
+
 </style>
