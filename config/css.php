@@ -43,6 +43,7 @@ body {
 	width:100%;
 	margin-bottom:30px;
 }
+
 .floatingthis{
 	float:left;
 	/*width:82%;*/

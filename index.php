@@ -33,9 +33,18 @@
 		      				<li class="nav-item<?php if($pageid==1){echo " active"; }?>">
 		        				<a class="nav-link" href="index.php?page=1"><?php if($pageid==1){echo "<strong>Home</strong>"; } else {echo "Home";}?> <span class="sr-only">(current)</span></a>
 		      				</li>
-		      				<li class="nav-item<?php if($pageid==4){echo " active"; }?>">
-								<a class="nav-link" href="index.php?page=4"><?php if($pageid==4){echo "<strong>Ventures</strong>"; } else {echo "Ventures";}?></a>
-		     		 		</li>  
+		     
+		     		 		<li class="nav-item dropdown<?php if($pageid==4){echo " active"; }?>">
+						        <a class="nav-link dropdown-toggle" href="index.php?page=4" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						          <?php if($pageid==4){echo "<strong>Ventures</strong>"; } else {echo "Ventures";}?>
+						        </a>
+						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						          <a class="dropdown-item" href="index.php?page=4">Real Estate</a>
+						          <a class="dropdown-item" href="index.php?page=5">Furniture</a>
+						          <a class="dropdown-item" href="index.php?page=6">Farm Produce</a>
+						          <a class="dropdown-item" href="index.php?page=7">IT Solutions</a>
+						        </div>
+						    </li> 
 						    <li class="nav-item<?php if($pageid==3){echo " active"; }?>">
 						    	<a class="nav-link" href="index.php?page=3"><?php if($pageid==3){echo "<strong>Contact Us</strong>"; } else {echo "Contact Us";}?></a>
 						    </li>  
@@ -48,16 +57,7 @@
 			</nav>
 
 
-			<div class="putleft col-sm-2 col-xs-12">
-			    <nav class="nav flex-column nav-pills blackening">
-				  <a class="nav-link active" href="#">Wajasiri Real Estate</a>
-				  <a class="nav-link" href="#">Wajasiri Furniture</a>
-				  <a class="nav-link" href="#">Wajasiri Farms</a>
-				  <a class="nav-link" href="#">Wajasiri IT Services</a>
-				</nav>
-			</div>		    
-		    
-			<div class="container floatingthis col-sm-8">
+			<div class="container offset-col-sm-2 col-sm-8">
 				<div class="row">
 					<div class="bcontent">
 						<h1> 
@@ -65,24 +65,7 @@
 						</h1>
 						<?php
 						if(($pageid==1)||($pageid==2)){echo ' 
-						<article class="decorants-1 deco">
-						<p>
-						 		Wajasiri....
-						<p>
-						</article>
-				
-						<article class="decorants-2 deco">
-						<p>
-						   		...Dare to dream....
-						<p>
-						</article>
-						   
-						<article class="decorants-3 deco">
-						<p>
-						   		...Dare to be brave..
-						<p>
-						</article>				
-						';
+						<img src="../../CSS/Images/rising-sun-modded-2.jpg" alt="Furniture" class="resp-image">';
 						}?>
 						
 						<?php echo $page['body']; ?>
@@ -90,7 +73,7 @@
 					</div>
 					
 					
-					<?php if($pageid==4){
+					<?php if(($pageid==1)||($pageid==4)){
 					echo'
 					<div class="panel panel-default col-sm-6">
 					  <div class="panel-heading">Wajasiri Real Estate</div>
@@ -151,7 +134,7 @@
     
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">Wajasiri Ltd &copy; 2017 </span>
+        <span class="text-muted">Wajasiri Ltd &copy; 2018 </span>
       </div>
     </footer><!-- Begin page content -->
 			
