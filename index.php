@@ -147,7 +147,11 @@
 					  </div>
 					  <div class="panel-body">
 					    <p>
-					    Mikocheni B, available for renting...
+					    Location: Mikocheni B 
+					    <br>
+					    Price:
+					    <br>
+					    Description: Available for renting
 					    </p>
 					  </div>
 					  </a>
@@ -161,7 +165,11 @@
 					  </div>
 					  <div class="panel-body">
 					    <p>
-					    Kigamboni, available for renting...
+					    Location: Kigamboni
+					    <br>
+					    Price:
+					    <br>
+					    Description: Available for renting
 					    </p>
 					  </div>
 					  </a>
@@ -175,7 +183,11 @@
 					  </div>
 					  <div class="panel-body">
 					    <p>
-					    Dodoma, 31 km from city, for sale...
+					    Location: Dodoma, 31 km from city
+					    <br>
+					    Price:
+					    <br>
+					    Description: Available for sale				    
 					    </p>
 					  </div>
 					  </a>
@@ -190,7 +202,11 @@
 					  </div>
 					  <div class="panel-body">
 					    <p>
-					    Out of ideas...
+					    Location: Out of ideas...
+					    <br>
+					    Price:
+					    <br>
+					    Description: Available for renting					    
 					    </p>
 					  </div>
 					 </a>					  
