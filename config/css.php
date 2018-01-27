@@ -18,7 +18,7 @@ html {
 	  min-height: 100%; }
 body {
 	  margin-bottom: 60px; /* Margin bottom by footer height */ }
-  
+
 .row{
 	overflow:auto;	
 }	  
@@ -28,6 +28,21 @@ body {
 	width: 100%;
 	margin-bottom:20px;
 	border-radius: 0px 0px 5px 5px;
+}
+
+.splash-image{
+	
+	width: 97%;
+	margin-bottom:20px;
+	margin-right:1.5%;
+	margin-left:1.5%;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.wrap-body-text{
+	margin-right:15px;
+	margin-left:15px;
+	
 }
 
 .putleft{
@@ -58,8 +73,12 @@ body {
 	border-radius: 5px 5px 0px 0px;
 }
 
+.panel-link-color{
+	color:black;
+}
+
 .deco{
-	margin-top: 50px
+	margin-top: 50px;
 }
 
 .decorants-1{

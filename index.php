@@ -35,14 +35,14 @@
 		      				</li>
 		     
 		     		 		<li class="nav-item dropdown<?php if($pageid==4){echo " active"; }?>">
-						        <a class="nav-link dropdown-toggle" href="index.php?page=4" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						          <?php if($pageid==4){echo "<strong>Ventures</strong>"; } else {echo "Ventures";}?>
+						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						          <?php if($pageid==5){echo "<strong>Ventures</strong>"; } else {echo "Ventures";}?>
 						        </a>
 						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						          <a class="dropdown-item" href="index.php?page=4">Real Estate</a>
-						          <a class="dropdown-item" href="index.php?page=5">Furniture</a>
-						          <a class="dropdown-item" href="index.php?page=6">Farm Produce</a>
-						          <a class="dropdown-item" href="index.php?page=7">IT Solutions</a>
+						          <a class="dropdown-item" href="index.php?page=5">Real Estate</a>
+						          <a class="dropdown-item" href="index.php?page=6">Furniture</a>
+						          <a class="dropdown-item" href="index.php?page=7">Farm Produce</a>
+						          <a class="dropdown-item" href="index.php?page=8">IT Solutions</a>
 						        </div>
 						    </li> 
 						    <li class="nav-item<?php if($pageid==3){echo " active"; }?>">
@@ -64,18 +64,20 @@
 							<?php echo $page['header']; ?>  
 						</h1>
 						<?php
-						if(($pageid==1)||($pageid==2)){echo ' 
-						<img src="../../CSS/Images/rising-sun-modded-2.jpg" alt="Furniture" class="resp-image">';
+						if(($pageid==1)||($pageid==2)||($pageid==3)){echo ' 
+						<img src="../../CSS/Images/grass-run-modded.jpg" alt="Furniture" class="splash-image">';
 						}?>
 						
+						<p class="wrap-body-text">
 						<?php echo $page['body']; ?>
-						
+						</p>
 					</div>
 					
 					
 					<?php if(($pageid==1)||($pageid==4)){
 					echo'
 					<div class="panel panel-default col-sm-6">
+					 <a href="index.php?page=5" class="panel-link-color">
 					  <div class="panel-heading">Wajasiri Real Estate</div>
 					  <div class="panel-body">
 					    <img src="../../CSS/Images/real-estate-modded.jpg" alt="Real Estate" class="resp-image">
@@ -85,9 +87,11 @@
 					    With a growing porfolio of real estate, we believe Wajasiri can be the end of your search for a new home or business opportunity...
 					    </p>
 					  </div>
+					  </a>
 					</div>
 					
 					<div class="panel panel-default col-sm-6">
+					 <a href="index.php?page=6" class="panel-link-color">
 					  <div class="panel-heading">Wajasiri Furniture</div>
 					  <div class="panel-body">
 					    <img src="../../CSS/Images/furniture-modded.jpg" alt="Furniture" class="resp-image">
@@ -97,9 +101,11 @@
 					    With over 20 years of experience in the furniture industry Wajasiri has grown to be a steady source of fashionable furniture crafted locally..
 					    </p>
 					  </div>
+					  </a>
 					</div>
 					
 					<div class="panel panel-info col-sm-6">
+					 <a href="index.php?page=7" class="panel-link-color">
 					  <div class="panel-heading">Wajasiri Farms</div>
 					  <div class="panel-body">
 					    <img src="../../CSS/Images/rice-modded.jpg" alt="Farm Produce" class="resp-image">
@@ -109,9 +115,12 @@
 					    Wajasiri endeavors on farming various tropical and mainstead produce ranging from Watermelons all the way to rice and maize...
 					    </p>
 					  </div>
+					  </a>
 					</div>
 					
+					
 					<div class="panel panel-default col-sm-6">
+					 <a href="index.php?page=8" class="panel-link-color">
 					  <div class="panel-heading">Wajasiri IT Solutions & Consultancy</div>
 					  <div class="panel-body">
 						<img src="../../CSS/Images/office-2-modded.jpg" alt="IT Services" class="resp-image">
@@ -120,8 +129,135 @@
 					    <p>
 					    Our talented and experienced work force can help to provide you the IT solution that you need to grow and survive...
 					    </p>
-					  </div>					  
-					</div>';
+					  </div>
+					 </a>					  
+					</div>
+					';
+												
+					}?>
+
+
+					<?php if($pageid==5){
+					echo'
+					<div class="panel panel-default col-sm-4">
+					 <a href="index.php?page=5" class="panel-link-color">
+					  <div class="panel-heading">Mikocheni B</div>
+					  <div class="panel-body">
+					    <img src="../../CSS/Images/real-estate-modded.jpg" alt="Real Estate" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Mikocheni B, available for renting...
+					    </p>
+					  </div>
+					  </a>
+					</div>
+					
+					<div class="panel panel-default col-sm-4">
+					 <a href="index.php?page=6" class="panel-link-color">
+					  <div class="panel-heading">Kigamboni</div>
+					  <div class="panel-body">
+					    <img src="../../CSS/Images/furniture-modded.jpg" alt="Furniture" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Kigamboni, available for renting...
+					    </p>
+					  </div>
+					  </a>
+					</div>
+					
+					<div class="panel panel-info col-sm-4">
+					 <a href="index.php?page=7" class="panel-link-color">
+					  <div class="panel-heading">Dodoma city</div>
+					  <div class="panel-body">
+					    <img src="../../CSS/Images/rice-modded.jpg" alt="Farm Produce" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Dodoma, 31 km from city, for sale...
+					    </p>
+					  </div>
+					  </a>
+					</div>
+					
+					
+					<div class="panel panel-default col-sm-4">
+					 <a href="index.php?page=8" class="panel-link-color">
+					  <div class="panel-heading">And another..</div>
+					  <div class="panel-body">
+						<img src="../../CSS/Images/office-2-modded.jpg" alt="IT Services" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Out of ideas...
+					    </p>
+					  </div>
+					 </a>					  
+					</div>
+					';
+												
+					}?>
+
+					<?php if($pageid==6){
+					echo'
+					<div class="panel panel-default col-sm-4">
+					 <a href="index.php?page=5" class="panel-link-color">
+					  <div class="panel-heading">Simple old fashioned bed</div>
+					  <div class="panel-body">
+					    <img src="../../CSS/Images/real-estate-modded.jpg" alt="Real Estate" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Name: Hardwood simple bed
+					    <br>
+					    Price: xxx Tzshs
+						<br>
+					    Description: Hand crafted and vanished finishing
+					    <br>
+					    </p>
+					  </div>
+					  </a>
+					</div>
+					
+					<div class="panel panel-default col-sm-4">
+					 <a href="index.php?page=6" class="panel-link-color">
+					  <div class="panel-heading">Elegant old fashioned bed</div>
+					  <div class="panel-body">
+					    <img src="../../CSS/Images/furniture-modded.jpg" alt="Furniture" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Name: Hardwood victorian bed
+					    <br>
+					    Price: xxx Tzshs
+					    <br>
+					    Description: Decorative design and carving on top panel of bed
+					    </p>
+					  </div>
+					  </a>
+					</div>
+					
+					<div class="panel panel-info col-sm-4">
+					 <a href="index.php?page=7" class="panel-link-color">
+					  <div class="panel-heading">Wajasiri Chair</div>
+					  <div class="panel-body">
+					    <img src="../../CSS/Images/rice-modded.jpg" alt="Farm Produce" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Name: Hardwood victorian chair
+					    <br>
+					    Price: xxx Tzshs
+					    <br>
+					    Description: A favourite of ours, hand crafted with delicately carved decorations...					    					    
+					    </p>
+					  </div>
+					  </a>
+					</div>
+					
+					</div>
+					';
 												
 					}?>
 					
