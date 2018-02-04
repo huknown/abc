@@ -22,7 +22,7 @@
 		
 		
 			<nav class="navbar navbar-expand-lg navbar-light" role=navigation style="background-color: #FF4500;">
-				<a class="navbar-brand" href="index.php?page=1">Wajasiri Group <i class="fa fa-leaf"></i> </a>
+				<a class="navbar-brand" href="index.php?page=1">Wajasiri Group <img src="../../CSS/Images/wajlogo4.svg" alt="Wajasiri Logo"> </a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -34,17 +34,19 @@
 		        				<a class="nav-link" href="index.php?page=1"><?php if($pageid==1){echo "<strong>Home</strong>"; } else {echo "Home";}?> <span class="sr-only">(current)</span></a>
 		      				</li>
 		     
-		     		 		<li class="nav-item dropdown<?php if($pageid==4){echo " active"; }?>">
-						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						          <?php if($pageid==5){echo "<strong>Ventures</strong>"; } else {echo "Ventures";}?>
-						        </a>
-						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						          <a class="dropdown-item" href="index.php?page=5">Real Estate</a>
-						          <a class="dropdown-item" href="index.php?page=6">Furniture</a>
-						          <a class="dropdown-item" href="index.php?page=7">Farm Produce</a>
-						          <a class="dropdown-item" href="index.php?page=8">IT Solutions</a>
-						        </div>
-						    </li> 
+						    <li class="nav-item<?php if($pageid==5){echo " active"; }?>">
+						    	<a class="nav-link" href="index.php?page=5"><?php if($pageid==5){echo "<strong>Real Estate</strong>"; } else {echo "Real Estate";}?></a>
+						    </li>  						    
+						    <li class="nav-item<?php if($pageid==6){echo " active"; }?>">
+						    	<a class="nav-link" href="index.php?page=6"><?php if($pageid==6){echo "<strong>Furniture</strong>"; } else {echo "Furniture";}?></a>
+						    </li>  						    
+						    <li class="nav-item<?php if($pageid==7){echo " active"; }?>">
+						    	<a class="nav-link" href="index.php?page=7"><?php if($pageid==7){echo "<strong>Farm Produce</strong>"; } else {echo "Farm Produce";}?></a>
+						    </li>  						    
+						    <li class="nav-item<?php if($pageid==8){echo " active"; }?>">
+						    	<a class="nav-link" href="index.php?page=8"><?php if($pageid==8){echo "<strong>IT Solutions</strong>"; } else {echo "IT Solutions";}?></a>
+						    </li>  						    
+						    
 						    <li class="nav-item<?php if($pageid==3){echo " active"; }?>">
 						    	<a class="nav-link" href="index.php?page=3"><?php if($pageid==3){echo "<strong>Contact Us</strong>"; } else {echo "Contact Us";}?></a>
 						    </li>  
@@ -64,8 +66,8 @@
 							<?php echo $page['header']; ?>  
 						</h1>
 						<?php
-						if(($pageid==1)||($pageid==2)||($pageid==3)){echo ' 
-						<img src="../../CSS/Images/grass-run-modded.jpg" alt="Furniture" class="splash-image">';
+						if(($pageid==1)||($pageid==2)||($pageid==3)){
+							echo '<img src="../../CSS/Images/grass-run-modded.jpg" alt="Furniture" class="splash-image">';
 						}?>
 						
 						<p class="wrap-body-text">
@@ -140,10 +142,10 @@
 					<?php if($pageid==5){
 					echo'
 					<div class="panel panel-default col-sm-4">
-					 <a href="index.php?page=5" class="panel-link-color">
+					 <a href="#" class="panel-link-color">
 					  <div class="panel-heading">Mikocheni B</div>
 					  <div class="panel-body">
-					    <img src="../../CSS/Images/real-estate-modded.jpg" alt="Real Estate" class="resp-image">
+					    <img src="../../CSS/Images/house1-modded.jpg" alt="House 4 rent sale Tanzania" class="resp-image">
 					  </div>
 					  <div class="panel-body">
 					    <p>
@@ -158,10 +160,10 @@
 					</div>
 					
 					<div class="panel panel-default col-sm-4">
-					 <a href="index.php?page=6" class="panel-link-color">
+					 <a href="#" class="panel-link-color">
 					  <div class="panel-heading">Kigamboni</div>
 					  <div class="panel-body">
-					    <img src="../../CSS/Images/furniture-modded.jpg" alt="Furniture" class="resp-image">
+					    <img src="../../CSS/Images/house2-modded.jpg" alt="House 3 rent sale Tanzania" class="resp-image">
 					  </div>
 					  <div class="panel-body">
 					    <p>
@@ -176,10 +178,10 @@
 					</div>
 					
 					<div class="panel panel-info col-sm-4">
-					 <a href="index.php?page=7" class="panel-link-color">
+					 <a href="#" class="panel-link-color">
 					  <div class="panel-heading">Dodoma city</div>
 					  <div class="panel-body">
-					    <img src="../../CSS/Images/rice-modded.jpg" alt="Farm Produce" class="resp-image">
+					    <img src="../../CSS/Images/house3-modded.jpg" alt="House 2 rent sale Tanzania" class="resp-image">
 					  </div>
 					  <div class="panel-body">
 					    <p>
@@ -195,10 +197,10 @@
 					
 					
 					<div class="panel panel-default col-sm-4">
-					 <a href="index.php?page=8" class="panel-link-color">
+					 <a href="#" class="panel-link-color">
 					  <div class="panel-heading">And another..</div>
 					  <div class="panel-body">
-						<img src="../../CSS/Images/office-2-modded.jpg" alt="IT Services" class="resp-image">
+						<img src="../../CSS/Images/house1-modded.jpg" alt="House 1 rent sale Tanzania" class="resp-image">
 					  </div>
 					  <div class="panel-body">
 					    <p>
@@ -218,10 +220,10 @@
 					<?php if($pageid==6){
 					echo'
 					<div class="panel panel-default col-sm-4">
-					 <a href="index.php?page=5" class="panel-link-color">
+					 <a href="#" class="panel-link-color">
 					  <div class="panel-heading">Simple old fashioned bed</div>
 					  <div class="panel-body">
-					    <img src="../../CSS/Images/real-estate-modded.jpg" alt="Real Estate" class="resp-image">
+					    <img src="../../CSS/Images/bed1-modded.jpg" alt="Wood bed tanzania" class="resp-image">
 					  </div>
 					  <div class="panel-body">
 					    <p>
@@ -237,10 +239,10 @@
 					</div>
 					
 					<div class="panel panel-default col-sm-4">
-					 <a href="index.php?page=6" class="panel-link-color">
+					 <a href="#" class="panel-link-color">
 					  <div class="panel-heading">Elegant old fashioned bed</div>
 					  <div class="panel-body">
-					    <img src="../../CSS/Images/furniture-modded.jpg" alt="Furniture" class="resp-image">
+					    <img src="../../CSS/Images/bed2-modded.jpg" alt="Wood Bed Tanzania" class="resp-image">
 					  </div>
 					  <div class="panel-body">
 					    <p>
@@ -255,14 +257,32 @@
 					</div>
 					
 					<div class="panel panel-info col-sm-4">
-					 <a href="index.php?page=7" class="panel-link-color">
-					  <div class="panel-heading">Wajasiri Chair</div>
+					 <a href="#" class="panel-link-color">
+					  <div class="panel-heading">Wajasiri Dining Set</div>
 					  <div class="panel-body">
-					    <img src="../../CSS/Images/rice-modded.jpg" alt="Farm Produce" class="resp-image">
+					    <img src="../../CSS/Images/diningset-modded.jpg" alt="Dining Set Tanzania" class="resp-image">
 					  </div>
 					  <div class="panel-body">
 					    <p>
-					    Name: Hardwood victorian chair
+					    Name: Hardwood dining set
+					    <br>
+					    Price: xxx Tzshs
+					    <br>
+					    Description: A favourite of ours, hand crafted with delicately carved decorations...					    					    
+					    </p>
+					  </div>
+					  </a>
+					</div>
+
+					<div class="panel panel-info col-sm-4">
+					 <a href="#" class="panel-link-color">
+					  <div class="panel-heading">Simple Park Bench</div>
+					  <div class="panel-body">
+					    <img src="../../CSS/Images/simplebench-modded.jpg" alt="Simple wood bench Tanzania" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Name: Hardwood dining set
 					    <br>
 					    Price: xxx Tzshs
 					    <br>
@@ -272,11 +292,89 @@
 					  </a>
 					</div>
 					
+					<div class="panel panel-info col-sm-4">
+					 <a href="#" class="panel-link-color">
+					  <div class="panel-heading">Wall inbuild cupboard</div>
+					  <div class="panel-body">
+					    <img src="../../CSS/Images/cupboardmodern-modded.jpg" alt="Cupboard Wall Tanzania" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Name: Hardwood dining set
+					    <br>
+					    Price: xxx Tzshs
+					    <br>
+					    Description: A favourite of ours, hand crafted with delicately carved decorations...					    					    
+					    </p>
+					  </div>
+					  </a>
+					</div>					
+					
 					</div>
 					';
 												
 					}?>
 					
+
+					<?php if($pageid==7){
+					echo'
+					<div class="panel panel-default col-sm-4">
+					 <a href="#" class="panel-link-color">
+					  <div class="panel-heading">Wajasiri Rice</div>
+					  <div class="panel-body">
+					    <img src="../../CSS/Images/rice2-modded.jpg" alt="Rice Farm Sale Tanzania" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Location: Mikocheni B 
+					    <br>
+					    Price:
+					    <br>
+					    Description: Available for renting
+					    </p>
+					  </div>
+					  </a>
+					</div>
+					
+					<div class="panel panel-default col-sm-4">
+					 <a href="#" class="panel-link-color">
+					  <div class="panel-heading">Wajasiri Maize</div>
+					  <div class="panel-body">
+					    <img src="../../CSS/Images/maize-modded.jpg" alt="Maize Farm Sale Tanzania" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Location: Kigamboni
+					    <br>
+					    Price:
+					    <br>
+					    Description: Available for renting
+					    </p>
+					  </div>
+					  </a>
+					</div>
+					
+					<div class="panel panel-info col-sm-4">
+					 <a href="#" class="panel-link-color">
+					  <div class="panel-heading">Wajasiri Watermelons</div>
+					  <div class="panel-body">
+					    <img src="../../CSS/Images/watermelon-modded.jpg" alt="Watermelon Farm Sale Tanzania" class="resp-image">
+					  </div>
+					  <div class="panel-body">
+					    <p>
+					    Location: Dodoma, 31 km from city
+					    <br>
+					    Price:
+					    <br>
+					    Description: Available for sale				    
+					    </p>
+					  </div>
+					  </a>
+					</div>
+					';
+												
+					}?>
+
 					    
 			    </div> 
 			    <div class="push"></div>
